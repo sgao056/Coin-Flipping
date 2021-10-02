@@ -1,0 +1,98 @@
+.app_box {
+  position: relative;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../image/bg.jpg) no-repeat 0% 20% / cover;
+  width: 50%;
+  height: auto;
+  box-shadow: 5px 5px 10px;
+  margin: 50px auto 50px auto;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.board {
+  margin: 10px;
+}
+
+.button {
+  width: 60%;
+  height: 60px;
+  border-radius: 10px;
+  font-size: 20px;
+  box-shadow: 1px 1px 2px black;
+}
+
+.button_component {
+  padding: 20px 0;
+}
+
+.flex_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.flex_box_coin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.header {
+  margin: 30px 0;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 900;
+}
+h5 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  padding: 5px;
+}
+
+input {
+  width: 50%;
+}
+
+.image_box1 {
+  height: 240px;
+  width: 240px;
+  overflow: hidden;
+  border-radius: 120px;
+  border: black solid 1px;
+  box-shadow: 2px 2px 5px;
+}
+
+.image_box2 {
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+  border-radius: 50px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.obverse {
+  display: inline;
+}
+
+.obverse_none {
+  display: none;
+}
+
+.reverse {
+  display: inline;
+}
+
+.reverse_none {
+  display: none;
+}
